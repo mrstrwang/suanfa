@@ -1,4 +1,4 @@
-class Stack(object):
+-class Stack(object):
 	def __init__(self):
 		self.stack = []
 
@@ -24,7 +24,7 @@ class Stack(object):
 			return self.stack[-1]
 
 
-class Queue(object):
+-class Queue(object):
 	def __init__(self):
 		self.queue = []
 
@@ -41,7 +41,7 @@ class Queue(object):
 		return self.size() == 0
 	def size(self):
 		return len(self.queue)
-#
+<!-- #
 # s = Stack()
 # s.push(1)
 # s.push(2)
@@ -49,10 +49,11 @@ class Queue(object):
 # d = s.peak()
 # print(s.stack)
 # print(d)
-
+ -->
 
 #实现一个栈来模拟一个队列
-class QueueByStack(object):
+
+-class QueueByStack(object):
 	def __init__(self):
 		self.queue1 = Stack()
 		self.queue2 = Stack()
@@ -91,3 +92,4 @@ def insertSort(A):
 A = [5, 2, 4, 6, 1, 3]
 
 print(insertSort(A))
+
