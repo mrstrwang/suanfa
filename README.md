@@ -10,7 +10,7 @@
 
 	def push(self,val):
 		return self.stack.append(val)
-
+#ffff
 	def size(self):
 		return len(self.stack)
 
